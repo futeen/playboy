@@ -11,7 +11,7 @@ def crawl_ips(page):
     # 爬取西刺的免费ip代理
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"}
     try:
-        for i in range(1, page):
+        for i in range(1400, page):
             list = []
             print(i)
             re = requests.get("http://www.xicidaili.com/nn/{0}".format(i), headers=headers)
@@ -22,7 +22,12 @@ def crawl_ips(page):
                 ip = ip_select[x][5: -5]
                 port = port_select[x][5:-5]
                 list.append((ip, port))
+            if list == []:
+                print('You were blocked')
+                break
             # print(list)
+            else:
+                continue
             for x in list:
                 cursor.execute(
                     "insert ip(ip, port) VALUES('{0}', {1})".format(x[0], x[1])
@@ -30,7 +35,7 @@ def crawl_ips(page):
                 conn.commit()
             del list[:]
 
-            time.sleep(1)
+            time.sleep(2)
 
     except Exception as e:
         print(e)
