@@ -1,2 +1,5 @@
+i wanna do something
 thinkpad git test
 test version change
+hello
+hi
