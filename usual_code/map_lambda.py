@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # the way using of lambda and map
+=======
+# map, lambda
+>>>>>>> 49e30f85260acb5bc0fbc3100a5ec8c3cce9b97a
 
 
 def f(x):
@@ -32,4 +36,7 @@ if __name__ == "__main__":
     test_map()
     print('---------')
     test_map_lambda()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 49e30f85260acb5bc0fbc3100a5ec8c3cce9b97a
