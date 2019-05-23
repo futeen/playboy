@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*- 
 '''
-Created on 2018.2.2
-
-@author: Wu.Xin
+@author:futeen
 '''
 from _overlapped import NULL
 

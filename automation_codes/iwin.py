@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 '''
-Created on 2018。3.29
-@author: Wu.Xin
 主要用于win窗口的操作
 '''
 

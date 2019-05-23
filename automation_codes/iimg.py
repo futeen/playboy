@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 '''
-Created on 2018。3.29
-
-@author: Wu.Xin
-
 图片相关处理
 '''
 from ctypes import *

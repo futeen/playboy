@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 '''
-Created on 2018-2-3
-
-@author: Wu.Xin
+@author: futeen
 使用 google 的  Tesseract
 '''
 

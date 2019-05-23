@@ -1,10 +1,4 @@
 # -*- coding:utf-8 -*-
-'''
-Created on 2018-3-26
-
-@author: Wu.Xin
-常量定义
-'''
 import os
 
 ''' 

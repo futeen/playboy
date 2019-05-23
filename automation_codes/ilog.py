@@ -1,6 +1,5 @@
 ﻿# -*- coding:utf-8 -*-
 ''' 
-@author: Wu.Xin
 统一日志记录
 
 '''

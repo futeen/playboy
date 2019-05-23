@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*- 
-'''
-Created on 2018.2.2
-
-@author: Wu.Xin
-''' 
 from ubpa.ilog import ILog
  
 

@@ -1,8 +1,5 @@
 # -*- coding:utf-8 -*-
 '''
-Created on 2018-2-3
-
-@author: Wu.Xin
 使用百度ocr
 '''
 from aip import AipOcr 

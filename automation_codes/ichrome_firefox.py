@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-Created on 2018年8月22日
-
-@author: ibm
-'''
-
 from ctypes import *
 from ubpa.ilog import ILog
 import json

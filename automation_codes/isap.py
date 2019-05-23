@@ -1,7 +1,3 @@
-''' 
-
-@author: ibm
-'''
 # -*- coding:utf-8 -*-
 from ctypes import cdll
 import sys, win32com.client

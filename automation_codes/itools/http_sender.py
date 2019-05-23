@@ -1,8 +1,6 @@
 #-*- coding:utf-8 -*-#
 '''
-Created on 2018年9月6日
-
-@author: ibm
+@author: futeen
 '''
 import json
 import time

@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-Created on 2018.9.1
-
-@author: ibm
-'''
 #!/usr/bin/python3
 import serial
 from serial.tools.list_ports import comports

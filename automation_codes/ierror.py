@@ -1,10 +1,4 @@
 # -*- coding:utf-8 -*-
-'''
-Created on 2018年3月27日
-
-@author: Wu.Xin
-'''
-
 
 class WinNotFoundError(Exception):   
     def __init__(self, err="WinNotFoundError"):
