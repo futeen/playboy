@@ -2,7 +2,7 @@
      df_a.index.name = "num"
 
     # drop reset_index's index
-     df_a.reset_index(drop=True)
+     df_a.reset_index(drop=True， inplace=True)
 
     # rename column header
      df_a.rename(columns={"a":"f"}, inplace=True)
