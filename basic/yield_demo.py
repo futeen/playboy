@@ -16,3 +16,6 @@ if __name__ == "__main__":
     print(a.__next__())
     print(a.__next__())
     print(a.__next__())  # 报错StopIteration
+	
+	# for x in a:
+	#    print(x)
